@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52755F292BBFA6060037AD95 /* ContainerStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F282BBFA6050037AD95 /* ContainerStackView.swift */; };
+		52755F2B2BBFAA0A0037AD95 /* ButtonControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F2A2BBFAA0A0037AD95 /* ButtonControlView.swift */; };
+		52755F2D2BBFAFFD0037AD95 /* ColorPickerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F2C2BBFAFFD0037AD95 /* ColorPickerControlView.swift */; };
+		52755F2F2BBFCEC10037AD95 /* DatePickerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F2E2BBFCEC10037AD95 /* DatePickerControlView.swift */; };
+		52755F312BBFD0470037AD95 /* FormControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F302BBFD0470037AD95 /* FormControlView.swift */; };
+		52755F332BBFD1650037AD95 /* SwiftUIStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F322BBFD1650037AD95 /* SwiftUIStateView.swift */; };
+		52755F352BBFD5CA0037AD95 /* SwiftUIAllertControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F342BBFD5CA0037AD95 /* SwiftUIAllertControlView.swift */; };
+		52755F372BBFD7270037AD95 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F362BBFD7270037AD95 /* SegmentedControlView.swift */; };
+		52755F392BBFD9BB0037AD95 /* SwiftUILinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F382BBFD9BB0037AD95 /* SwiftUILinkView.swift */; };
+		52755F3C2BBFDC3C0037AD95 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F3B2BBFDC3C0037AD95 /* WebView.swift */; };
+		52755F3E2BBFE2A00037AD95 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 52755F3D2BBFE2A00037AD95 /* .gitignore */; };
 		529523B12BBF99E300E8E4CA /* BasicSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529523B02BBF99E300E8E4CA /* BasicSwiftUiApp.swift */; };
 		529523B32BBF99E300E8E4CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529523B22BBF99E300E8E4CA /* ContentView.swift */; };
 		529523B52BBF99E400E8E4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529523B42BBF99E400E8E4CA /* Assets.xcassets */; };
@@ -14,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52755F282BBFA6050037AD95 /* ContainerStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerStackView.swift; sourceTree = "<group>"; };
+		52755F2A2BBFAA0A0037AD95 /* ButtonControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonControlView.swift; sourceTree = "<group>"; };
+		52755F2C2BBFAFFD0037AD95 /* ColorPickerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerControlView.swift; sourceTree = "<group>"; };
+		52755F2E2BBFCEC10037AD95 /* DatePickerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerControlView.swift; sourceTree = "<group>"; };
+		52755F302BBFD0470037AD95 /* FormControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormControlView.swift; sourceTree = "<group>"; };
+		52755F322BBFD1650037AD95 /* SwiftUIStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStateView.swift; sourceTree = "<group>"; };
+		52755F342BBFD5CA0037AD95 /* SwiftUIAllertControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAllertControlView.swift; sourceTree = "<group>"; };
+		52755F362BBFD7270037AD95 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		52755F382BBFD9BB0037AD95 /* SwiftUILinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILinkView.swift; sourceTree = "<group>"; };
+		52755F3B2BBFDC3C0037AD95 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		52755F3D2BBFE2A00037AD95 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		529523AD2BBF99E300E8E4CA /* BasicSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529523B02BBF99E300E8E4CA /* BasicSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftUiApp.swift; sourceTree = "<group>"; };
 		529523B22BBF99E300E8E4CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +54,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52755F252BBFA5720037AD95 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				529523B02BBF99E300E8E4CA /* BasicSwiftUiApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52755F262BBFA57E0037AD95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				529523B22BBF99E300E8E4CA /* ContentView.swift */,
+				52755F282BBFA6050037AD95 /* ContainerStackView.swift */,
+				52755F2A2BBFAA0A0037AD95 /* ButtonControlView.swift */,
+				52755F2C2BBFAFFD0037AD95 /* ColorPickerControlView.swift */,
+				52755F2E2BBFCEC10037AD95 /* DatePickerControlView.swift */,
+				52755F302BBFD0470037AD95 /* FormControlView.swift */,
+				52755F322BBFD1650037AD95 /* SwiftUIStateView.swift */,
+				52755F342BBFD5CA0037AD95 /* SwiftUIAllertControlView.swift */,
+				52755F362BBFD7270037AD95 /* SegmentedControlView.swift */,
+				52755F382BBFD9BB0037AD95 /* SwiftUILinkView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52755F272BBFA5970037AD95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				529523B42BBF99E400E8E4CA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52755F3A2BBFDC2A0037AD95 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				52755F3B2BBFDC3C0037AD95 /* WebView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		529523A42BBF99E300E8E4CA = {
 			isa = PBXGroup;
 			children = (
+				52755F3D2BBFE2A00037AD95 /* .gitignore */,
 				529523AF2BBF99E300E8E4CA /* BasicSwiftUi */,
 				529523AE2BBF99E300E8E4CA /* Products */,
 			);
@@ -51,9 +115,10 @@
 		529523AF2BBF99E300E8E4CA /* BasicSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
-				529523B02BBF99E300E8E4CA /* BasicSwiftUiApp.swift */,
-				529523B22BBF99E300E8E4CA /* ContentView.swift */,
-				529523B42BBF99E400E8E4CA /* Assets.xcassets */,
+				52755F3A2BBFDC2A0037AD95 /* Helper */,
+				52755F252BBFA5720037AD95 /* App */,
+				52755F262BBFA57E0037AD95 /* View */,
+				52755F272BBFA5970037AD95 /* Resources */,
 				529523B62BBF99E400E8E4CA /* Preview Content */,
 			);
 			path = BasicSwiftUi;
@@ -126,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529523B82BBF99E400E8E4CA /* Preview Assets.xcassets in Resources */,
+				52755F3E2BBFE2A00037AD95 /* .gitignore in Resources */,
 				529523B52BBF99E400E8E4CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +204,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				529523B32BBF99E300E8E4CA /* ContentView.swift in Sources */,
+				52755F332BBFD1650037AD95 /* SwiftUIStateView.swift in Sources */,
 				529523B12BBF99E300E8E4CA /* BasicSwiftUiApp.swift in Sources */,
+				52755F2D2BBFAFFD0037AD95 /* ColorPickerControlView.swift in Sources */,
+				52755F392BBFD9BB0037AD95 /* SwiftUILinkView.swift in Sources */,
+				52755F292BBFA6060037AD95 /* ContainerStackView.swift in Sources */,
+				52755F372BBFD7270037AD95 /* SegmentedControlView.swift in Sources */,
+				52755F2F2BBFCEC10037AD95 /* DatePickerControlView.swift in Sources */,
+				52755F2B2BBFAA0A0037AD95 /* ButtonControlView.swift in Sources */,
+				52755F3C2BBFDC3C0037AD95 /* WebView.swift in Sources */,
+				52755F312BBFD0470037AD95 /* FormControlView.swift in Sources */,
+				52755F352BBFD5CA0037AD95 /* SwiftUIAllertControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
